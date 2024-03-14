@@ -271,3 +271,72 @@
     left: 390px;
     margin-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .logo {
+        float: none;
+        margin: 0 auto;
+    }
+    .nav {
+        text-align: center;
+    }
+    .clickable {
+        float: none;
+        margin-top: 10px;
+    }
+    .devv {
+        top: 100px;
+        right: 0;
+    }
+    .text1, .text2 {
+        font-size: 60px;
+        left: 0;
+    }
+    .text3 {
+        font-size: 16px;
+        right: 0;
+    }
+    .learn {
+        right: 0;
+    }
+    #learn {
+        left: 0;
+        font-size: 20px;
+        bottom: 50px;
+    }
+    .html, .css, .js {
+        margin-top: 50px;
+    }
+    .head, #html, .css, .cssex, #js {
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .logo {
+        height: 60px; 
+    }
+    .nav {
+        padding: 20px; 
+    }
+    .devv {
+        font-size: 25px; 
+    }
+    .text1, .text2 {
+        font-size: 80px;
+        left: 0;
+    }
+    .text3 {
+        font-size: 20px; 
+        right: 0;
+    }
+    #learn {
+        left: 0;
+        font-size: 25px; 
+        bottom: 30px;
+    }
+    .html, .css, .js {
+        margin-top: 100px; 
+    }
+    .head, #html, .css, .cssex, #js {
+        font-size: 40px; 
+    }
+}
