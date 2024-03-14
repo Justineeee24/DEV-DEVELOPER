@@ -7,17 +7,28 @@
 }
 .logo{
     float: left;
+    height: 80px;
     position: relative;
-    left: 20px;
-    bottom: 20px;
-    font-size: 25px;
-    color: white;
+    bottom: 30px;
+}
+#dev{
+    color: #00FFD8;
+    position: relative;
+    bottom: 297px;
+    right: 460px;
+    font-size: 30px;
+}
+#eloper{
+    position: relative;
+    bottom: 343px;
+    right: 373px;
+    font-size: 30px;
 }
 .clickable{
    float: right;
    position: relative;
    right: 40px;
-   bottom: 10px;
+   bottom: 87px;
 }
 .link{
     color: white;
@@ -28,11 +39,11 @@
     border-radius: 20px;
 }
 .link:hover{
-    background: white;
+    background: #00FFD8;
     color: black;
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: 0px 0px 20px 0px #00FFD8;
 }
-.dev{
+.devv{
     position: relative;
     top: 300px;
     right: 22%;
@@ -41,17 +52,21 @@
 }
 .text1{
     position: relative;
-    left: 25px;
+    left: 200px;
+    font-size: 100px;
+    bottom: 100px;
 }
 .text2{
     position: relative;
-    left: 10px;
+    left: 185px;
+    font-size: 100px;
+    bottom: 100px;
 }
 .text3{
     font-size: 18px;
     position: relative;
     right: 270px;
-    top: 50px;
+    bottom: 50px;
 }
 .learn{
     font-size: 12px;
@@ -66,13 +81,15 @@
     background: black;
     padding: 15px 30px;
     position: relative;
-    left: 10px;
+    left: 20px;
+    font-size: 25px;
+    bottom: 100px;
     border-radius: 20px;
 }
 #learn:hover{
-    background: white;
+    background: #00FFD8;
     color: black;
-    box-shadow: 0px 0px 20px 0px white;
+    box-shadow: 0px 0px 20px 0px #00FFD8;
 }
 #learn:active{
     transform: scale(0.95);
@@ -93,6 +110,10 @@
     font-size: 50px;
     color: white;
 }
+.htmllogo{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
 .whatishtml{
     color: white;
     font-size: 20px;
@@ -101,9 +122,152 @@
 .whatishtml2{
     text-align: left;
     position: relative;
-    left: 15%;
+    left: 19%;
     color: white;
 }
 #whatishtml2{
     margin-top: 70px;
+}
+.ex{
+    color: white;
+    position: relative;
+    right: 530px;
+    top: 50px;
+    font-size: 25px;
+}
+.example{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.explan{
+    color: white;
+    position: relative;
+    right: 450px;
+    top: 50px;
+    font-size: 25px;
+    margin-top: -40px;
+}
+.explann{
+    position: relative;
+    left: 5px;
+    top: 70px;
+    margin-bottom: 100px;
+}
+.browsers{
+    color: white;
+    position: relative;
+    right: 500px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.web{
+    color: white;
+    position: relative;
+    right: 150px;
+    bottom: 30px;
+}
+.web2{
+    color: white;
+    position: relative;
+    right: 215px;
+    bottom: 20px;
+}
+.webex{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.struct{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 440px;
+    margin-bottom: 30px;
+}
+.struct2{
+    color: white;
+    position: relative;
+    right: 400px;
+    margin-bottom: 30px;
+}
+.structimg{
+    margin-bottom: 30px;
+}
+.css{
+    color: white;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.csslogo{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.whatiscss2{
+    color: white;
+    font-size: 20px;
+}
+.whatiscss{
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    left: 19%;
+}
+#whatiscss{
+    margin-top: 50px;
+}
+.whyusecss{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 470px;
+    margin-top: 30px;
+}
+.whyusecss2{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cssex{
+    font-size: 25px;
+    position: relative;
+    right: 475px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.csseximg{
+    margin-bottom: 20px;
+}
+.syntax{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 485px;
+    margin-bottom: 20px;
+}
+.syntaximg{
+    margin-bottom: 20px;
+}
+#js{
+    color: white;
+    margin-top: 150px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.jslogo{
+    margin-bottom: 30px;
+}
+.java{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.java2{
+    text-align: left;
+    color: white;
+    position: relative;
+    left: 390px;
+    margin-bottom: 20px;
 }
